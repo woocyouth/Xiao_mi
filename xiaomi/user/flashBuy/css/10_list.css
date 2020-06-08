@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 14px/1.5 "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+    background-color: rgb(245, 245, 245);
+    min-width: 1226px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.content {
+    width: 1230px;
+    height: 1015px;
+    margin: 20px auto;
+}
+
+.content ul.content_ul {
+    width: 1230px;
+    height: 1015px;
+    /*background: #55a532;*/
+}
+
+.content ul.content_ul li:nth-child(3n+1) {
+    margin-left: 0;
+}
+
+.content ul.content_ul li {
+    background: #fff;
+    width: 400px;
+    height: 190px;
+    margin-left: 15px;
+    margin-bottom: 13px;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+    position: relative;
+    z-index: 2;
+    float: left;
+}
+
+.content ul.content_ul li:hover {
+    webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    -webkit-transform: translate3d(0, -2px, 0);
+    transform: translate3d(0, -2px, 0);
+}
+
+.content ul.content_ul li a {
+    display: block;
+    width: 400px;
+    height: 190px;
+}
+
+.content ul.content_ul li a .box {
+    display: block;
+    width: 377px;
+    height: 160px;
+    padding-top: 30px;
+    padding-left: 23px;
+    /*background: #ffe49e;*/
+    position: relative;
+
+}
+
+.content ul.content_ul li a .box img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.content ul.content_ul li a .box .txt {
+    width: 190px;
+    height: auto;
+    float: right;
+}
+
+.content ul.content_ul li a .box .txt span.name {
+    font-size: 16px;
+    color: #333;
+    height: 16px;
+    overflow: hidden;
+    _zoom: 1;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    line-height: 16px;
+}
+
+.content ul.content_ul li a .box .txt span.desc {
+    color: rgba(0, 0, 0, 0.54);
+    margin-top: 7px;
+    font-size: 12px;
+    line-height: 16px;
+    height: 32px;
+    width: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.content ul.content_ul li a .box .txt span.price {
+    font-size: 16px;
+    color: #f1393a;
+    line-height: 1;
+    margin-top: 14px;
+}
+
+.content ul.content_ul li a .box .txt span.price i {
+    font-style: normal;
+    margin-left: 10px;
+    font-size: 12px;
+    color: #757575;
+    text-decoration: line-through;
+}
+
+.content ul.content_ul li a .box .btn {
+    width: 120px;
+    height: 27px;
+    position: absolute;
+    bottom: 29px;
+    right: 72px;
+    background: #83c44e;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 7px;
+}

@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contain{
+    width: 100%;
+    height: auto;
+}
+.contain .banner1{
+    width: 100%;
+    background: url("../../../image/pro_details_xm10_1.jpg") 50% 0px / auto 100% no-repeat;
+    float: left;
+}
+.contain .banner2{
+    width: 100%;
+    background: url("../../../image/pro_details_xm10_2.jpg") 50% 0px / auto 100% no-repeat;
+    float: left;
+}
+.contain .banner3{
+    width: 100%;
+    background: url("../../../camera/pro_details_xm10_3_video.jpg") 50% 0px / auto 100% no-repeat;
+    float: left;
+}

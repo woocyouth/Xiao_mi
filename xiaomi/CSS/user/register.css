@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*html {*/
+/*    -webkit-filter: grayscale(100%); !* Chrome, Safari, Opera *!*/
+/*    filter: grayscale(100%);*/
+/*}*/
+
+article {
+    margin-top: 100px;
+}
+
+div.box {
+    width: 1240px;
+    height: 670px;
+    margin: 0 auto;
+    background: #ffffff;
+    box-shadow: 0 1px 5px #aaa;
+    text-align: center;
+}
+
+div.box input {
+    padding: 18px 14px 18px 14px;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 322px;
+    height: 14px;
+    outline: none;
+    border: #e0e0e0 1px solid;
+    color: #a2a2a2;
+    background: none;
+}
+div.box div.hidden_info{
+    background: antiquewhite;
+    width: 350px;
+    margin: 5px auto 5px;
+}
+div.box div.hidden_info p.warning{
+    color: orangered;
+}
+div.box input.submit {
+    margin-top: 25px;
+    border: #ff6700;
+    background: #ff6700;
+    color: #ffffff;
+    width: 352px;
+    height: 50px;
+    cursor: pointer;
+}
+
+/*底部信息*/
+footer {
+    width: 100%;
+    height: auto;
+    padding-top: 104px;
+}
+
+footer div.container {
+    width: 1130px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: #757575;
+}
+
+footer span {
+    color: #757575;
+}
+
+footer div.container div.language {
+    margin-bottom: 20px;
+}
+
+footer div.container div.language a:hover {
+    color: #000000;
+}

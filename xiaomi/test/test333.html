@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<div id="animate-test">animate-test</div>
+<script>
+    document.getElementById("animate-test").animate([
+        { transform: 'translateX(0px)' },
+        { transform: 'translateX(300px)' }
+    ], {
+        duration: 1000,
+        // iterations: Infinity
+    });
+</script>
+</body>
+</html>

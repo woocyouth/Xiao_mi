@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.user {
+    width: 100%;
+    height: 300px;
+    float: left;
+    margin-left: -47px;
+}
+
+img.product-img{
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+}
+
+.user table {
+    margin: 0 auto;
+    background: #fff2e2;
+    text-align: center;
+}
+
+.user .title {
+    width: 94%;
+    height: 50px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.user .title .title_user {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background: #ff9046;
+    font-size: 25px;
+    color: #ffffff;
+    margin: 0 auto;
+    line-height: 50px;
+}
+
+.user .title div.search {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.user .title div.search input {
+    background: #ffffff;
+    outline: none;
+    border: 0;
+    height: 30px;
+}
+
+.user .title div.search input[type="text"] {
+    padding: 0 5px 0 5px;
+}
+
+.user .title div.search input[type="submit"] {
+    font-size: 13px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.user table tr {
+    line-height: 38px;
+    transition: all 0.3s;
+}
+
+.user table tr:nth-child(2n) {
+    background: #ff670021;
+}
+
+.user table tr:nth-child(2n-1):hover {
+    box-shadow: 0 3px 4px rgba(0, 0, 0, .18);
+}
+
+.user table tr td a {
+    text-decoration: none;
+    color: #757575;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.user table tr td span.page-list {
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    width: 48px;
+    height: 24px;
+    padding: 3px 0;
+    margin: 0 7px;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 24px;
+    color: #b0b0b0;
+    transition: all 0.3s;
+}
+
+.user table tr td span.page-list:hover {
+    background-color: #b0b0b0;
+    color: #fff;
+    cursor: pointer;
+}
+
+.user table tr td a.page-list:hover {
+    background-color: #757575;
+    color: #fff;
+    cursor: pointer;
+}
+
+.user table tr td a.page-list {
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    width: 48px;
+    height: 24px;
+    padding: 3px 0;
+    margin: 0 7px;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 24px;
+    color: #b0b0b0;
+    transition: all 0.3s;
+}
+
+.user table tr td {
+    text-align: center;
+}
+
+.user table tr td a:hover {
+    color: #ff6700;
+}
+
+.user table tr td a:nth-child(1) {
+    margin-left: 0;
+}
+
+.user table tr td .page {
+    text-decoration: none;
+    color: #757575;
+    /*font-size: 14px;*/
+    font-size: 16px;
+    /*float: left;*/
+    width: 140px;
+    height: 40px;
+    /*background: #85dfff;*/
+}
+
+.user table tr td span {
+    color: #757575;
+    margin-left: 10px;
+}
+
+.user table tr td span.position {
+    color: #2c2c2c;
+    font-size: 20px;
+}
+
+.user table tr td input {
+    border: 0;
+    outline: 0;
+    background: none;
+    margin-left: 10px;
+}
+
+.user table tr td input:hover {
+    color: #ff6700;
+}

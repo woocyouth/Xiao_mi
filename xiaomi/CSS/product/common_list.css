@@ -1,0 +1,659 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/*商品详细信息*/
+div.contain .pro-info {
+    width: 606px;
+    height: auto;
+    float: right;
+    /*background: #55a532;*/
+}
+
+div.contain .pro-info span.name {
+    font-size: 24px;
+}
+
+div.contain .pro-info p span.info {
+    color: rgb(255, 74, 0);
+    font-size: 14px;
+}
+
+div.contain .pro-info p.info {
+    color: #b0b0b0;
+    margin: 0;
+    padding: 8px 0 0 0;
+    font-size: 14px;
+}
+
+div.contain .pro-info span.txt-info {
+    color: #ff6700;
+    font-size: 13px;
+    line-height: 50px;
+}
+
+div.contain .pro-info .price {
+    width: 606px;
+    height: 51px;
+    border-bottom: 1px solid #e0e0e0;
+    /*background: #CCCCCC;*/
+}
+
+div.contain .pro-info .price span.now_price {
+    color: #ff6700;
+    font-size: 18px;
+    line-height: 48px;
+}
+
+/*user address*/
+div.contain .pro-info .address {
+    width: 534px;
+    height: 44px;
+    background: #fafafa;
+    margin: 40px auto;
+    padding: 30px 40px 30px 32px;
+}
+
+div.contain .pro-info .address i {
+    float: left;
+    margin-right: 10px;
+}
+
+div.contain .pro-info .address .address-info {
+    width: 502px;
+    height: 21px;
+    /*background: #ff685b;*/
+    float: left;
+}
+
+div.contain .pro-info .address .address-info span.items {
+    height: 16px;
+    width: auto;
+    font-size: 14px;
+    color: #000000;
+    float: left;
+    margin-right: 14px;
+}
+
+div.contain .pro-info .address .address-info span.address_choose {
+    /*line-height: 1;*/
+    font-size: 15px;
+    color: #ff6700;
+    cursor: pointer;
+    float: left;
+}
+
+div.contain .pro-info .address .product-status .sale {
+    color: #ff6700;
+    font-size: 14px;
+}
+
+/*product-choose-version-color*/
+div.contain .pro-info .list-wrap {
+    width: 606px;
+    height: 796px;
+    /*background: #e0e0e0;*/
+}
+
+div.contain .pro-info .list-wrap .choose-version {
+    width: 606px;
+    height: 18px;
+}
+
+div.contain .pro-info .list-wrap .choose-version div.title {
+    font-size: 18px;
+    margin-bottom: 17px;
+}
+
+div.contain .pro-info .list-wrap .choose-version ul.choose-ver-ul {
+
+}
+
+div.contain .pro-info .list-wrap .choose-version ul.choose-ver-ul li {
+    list-style: none;
+    width: 207px;
+    height: 20px;
+    padding: 12px 10px 12px 78px;
+    border: 1px solid #e0e0e0;
+    float: left;
+    margin-left: 4px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+div.contain .pro-info .list-wrap .choose-version ul.choose-ver-ul li span.choose-name {
+    width: 170px;
+    height: 42px;
+}
+
+.n-active {
+    color: #ff6700;
+    border: 1px solid #ff6700 !important;
+}
+
+div.contain .pro-info .list-wrap .choose-version ul.choose-ver-ul li span.choose-price {
+    width: 51px;
+    height: 42px;
+    color: #b0b0b0;
+    padding-left: 35px;
+}
+
+.p-active {
+    color: #757575;
+}
+
+/*choose-color*/
+div.contain .pro-info .list-wrap div.choose-color {
+    width: 606px;
+    height: 18px;
+    float: left;
+    margin-top: 20px;
+}
+
+div.contain .pro-info .list-wrap div.choose-color .title {
+    font-size: 18px;
+    margin-bottom: 17px;
+}
+
+div.contain .pro-info .list-wrap div.choose-color ul.choose-col-ul {
+
+}
+
+div.contain .pro-info .list-wrap div.choose-color ul.choose-col-ul li {
+    list-style: none;
+    width: 207px;
+    height: 20px;
+    padding: 12px 10px 12px 78px;
+    border: 1px solid #e0e0e0;
+    float: left;
+    margin-left: 4px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+div.contain .pro-info .list-wrap div.choose-color ul.choose-col-ul li img {
+    margin-bottom: -2px;
+}
+
+div.contain .pro-info .list-wrap div.choose-color ul.choose-col-ul li span.col-name {
+    margin-left: 20px;
+}
+
+.c-active {
+    color: #ff6700;
+    border: 1px solid #ff6700 !important;
+}
+
+/*insurance*/
+div.contain .pro-info .list-wrap .insurance {
+    width: 606px;
+    height: 316px;
+    /*background: #757575;*/
+    float: right;
+    margin-top: 100px;
+    position: relative;
+}
+
+.choose-txt-title {
+    font-size: 18px;
+    float: left;
+}
+
+.choose-txt-title-details {
+    float: right;
+    font-size: 14px;
+    color: #ff6700;
+}
+
+div.contain .pro-info .list-wrap .insurance ul.insurance-ul {
+
+}
+
+div.contain .pro-info .list-wrap .insurance ul.insurance-ul li {
+    list-style: none;
+    /*text-align: center;*/
+    /*background: #55a532;*/
+    width: 602px;
+    height: 82px;
+    padding: 30px 0;
+    position: relative;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+}
+
+div.contain .pro-info .list-wrap .insurance ul.insurance-ul li:nth-child(2) {
+    border-top: none;
+}
+
+div.contain .pro-info .list-wrap .insurance .title {
+    width: 606px;
+    height: 18px;
+    /*background: #0077aa;*/
+    margin-bottom: 15px;
+}
+
+div.contain .pro-info .list-wrap .insurance ul.insurance-ul li input[type=checkbox] {
+    -webkit-appearance: none;
+    appearance: none;
+    outline: none;
+    border: none;
+    background: none;
+}
+
+div.contain .pro-info .list-wrap .insurance ul.insurance-ul li input[type=radio] {
+    -webkit-appearance: none;
+    appearance: none;
+    outline: none;
+    border: none;
+    background: none;
+}
+
+div.contain .pro-info .list-wrap .insurance ul.insurance-ul li .check {
+    display: block;
+    border-radius: 50%;
+    width: 36px;
+    margin-left: 30px;
+    float: left;
+    cursor: pointer;
+}
+
+div.contain .pro-info .list-wrap .insurance ul.insurance-ul li .service + label {
+    display: block;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    /*background: rgb(255, 104, 91);*/
+    border: 1px solid #e0e0e0;
+    border-radius: 50%;
+}
+
+/*div.contain .pro-info .list-wrap .insurance ul.insurance-ul li input[type=radio] + label::before{*/
+/*    background: #ff6700;*/
+/*    border-radius: 50%;*/
+/*    display: block;*/
+/*    content: "\2714";*/
+/*    text-align: center;*/
+/*    font-size: 12px;*/
+/*    color: white;*/
+/*}*/
+div.contain .pro-info .list-wrap .insurance ul.insurance-ul li .service:checked + label::before {
+    background: #ff6700;
+    border-radius: 50%;
+    display: block;
+    content: "\2714";
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+
+div.contain .pro-info .list-wrap .insurance ul.insurance-ul li img {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    margin-left: 10px;
+    float: left;
+}
+
+div.contain .pro-info .list-wrap .insurance ul.insurance-ul li div.text {
+    width: 370px;
+    height: 80px;
+    /*background: #0077aa;*/
+    float: left;
+}
+
+div.contain .pro-info .list-wrap .insurance ul.insurance-ul li div.text span {
+    font-size: 18px;
+}
+
+div.contain .pro-info .list-wrap .insurance ul.insurance-ul li div.text p {
+    font-size: 14px;
+    height: 18px;
+    color: #b0b0b0;
+    width: 286px;
+    overflow: hidden;
+    _zoom: 1;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+div.contain .pro-info .list-wrap .insurance ul.insurance-ul li div.text p.done {
+    color: #757575;
+    font-size: 14px;
+    height: 30px;
+    /*background: #00bbf0;*/
+}
+
+div.contain .pro-info .list-wrap .insurance ul.insurance-ul li div.text p.done i.check-agree {
+    width: 30px;
+    height: 30px;
+    float: left;
+    /*background: antiquewhite;*/
+    position: relative;
+}
+
+div.contain .pro-info .list-wrap .insurance ul.insurance-ul li div.text p.done i.check-agree .agree + label {
+    display: block;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    /*background: rgb(255, 104, 91);*/
+    border: 1px solid #e0e0e0;
+    position: absolute;
+    top: 4px;
+    left: 0;
+}
+
+div.contain .pro-info .list-wrap .insurance ul.insurance-ul li div.text p.done i.check-agree .agree:checked + label::before {
+    background: #ff6700;
+    display: block;
+    content: "\2714";
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+
+div.contain .pro-info .list-wrap .insurance ul.insurance-ul li div.text p.done a {
+    color: #ff6700;
+}
+
+div.contain .pro-info .list-wrap .insurance ul.insurance-ul li div.text p.done a span {
+    color: #2c2c2c;
+    margin-left: 5px;
+}
+
+div.contain .pro-info .list-wrap .insurance ul.insurance-ul li .check-price {
+    position: absolute;
+    right: 20px;
+    bottom: 28px;
+    color: #757575;
+}
+
+/*insurance-product*/
+div.contain .pro-info .list-wrap .insurance-product {
+    width: 606px;
+    height: 175px;
+    /*background: #757575;*/
+    float: right;
+    margin-top: 20px;
+    position: relative;
+}
+
+.choose-txt-title {
+    font-size: 18px;
+    float: left;
+}
+
+.choose-txt-title-details {
+    float: right;
+    font-size: 14px;
+    color: #ff6700;
+}
+
+div.contain .pro-info .list-wrap .insurance-product ul.insurance-ul {
+
+}
+
+div.contain .pro-info .list-wrap .insurance-product ul.insurance-ul li {
+    list-style: none;
+    /*text-align: center;*/
+    /*background: #55a532;*/
+    width: 602px;
+    height: 82px;
+    padding: 30px 0;
+    position: relative;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+}
+
+div.contain .pro-info .list-wrap .insurance-product ul.insurance-ul li:nth-child(2) {
+    border-top: none;
+}
+
+div.contain .pro-info .list-wrap .insurance-product .title {
+    width: 606px;
+    height: 18px;
+    /*background: #0077aa;*/
+    margin-bottom: 15px;
+}
+
+div.contain .pro-info .list-wrap .insurance-product ul.insurance-ul li input[type=checkbox] {
+    -webkit-appearance: none;
+    appearance: none;
+    outline: none;
+    border: none;
+    background: none;
+}
+
+div.contain .pro-info .list-wrap .insurance-product ul.insurance-ul li .check {
+    display: block;
+    border-radius: 50%;
+    width: 36px;
+    margin-left: 30px;
+    float: left;
+    cursor: pointer;
+}
+
+div.contain .pro-info .list-wrap .insurance-product ul.insurance-ul li .service + label {
+    display: block;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    /*background: rgb(255, 104, 91);*/
+    border: 1px solid #e0e0e0;
+    border-radius: 50%;
+}
+
+div.contain .pro-info .list-wrap .insurance-product ul.insurance-ul li .service:checked + label::before {
+    background: #ff6700;
+    border-radius: 50%;
+    display: block;
+    content: "\2714";
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+
+div.contain .pro-info .list-wrap .insurance-product ul.insurance-ul li img {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    margin-left: 10px;
+    float: left;
+}
+
+div.contain .pro-info .list-wrap .insurance-product ul.insurance-ul li div.text {
+    width: 370px;
+    height: 80px;
+    /*background: #0077aa;*/
+    float: left;
+}
+
+div.contain .pro-info .list-wrap .insurance-product ul.insurance-ul li div.text span {
+    font-size: 18px;
+}
+
+div.contain .pro-info .list-wrap .insurance-product ul.insurance-ul li div.text p {
+    font-size: 14px;
+    height: 18px;
+    color: #b0b0b0;
+    width: 286px;
+    overflow: hidden;
+    _zoom: 1;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+div.contain .pro-info .list-wrap .insurance-product ul.insurance-ul li div.text p.done {
+    color: #757575;
+    font-size: 14px;
+    height: 30px;
+    /*background: #00bbf0;*/
+}
+
+div.contain .pro-info .list-wrap .insurance-product ul.insurance-ul li div.text p.done i.check-agree {
+    width: 30px;
+    height: 30px;
+    float: left;
+    /*background: antiquewhite;*/
+    position: relative;
+}
+
+div.contain .pro-info .list-wrap .insurance-product ul.insurance-ul li div.text p.done i.check-agree .agree + label {
+    display: block;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    /*background: rgb(255, 104, 91);*/
+    border: 1px solid #e0e0e0;
+    position: absolute;
+    top: 4px;
+    left: 0;
+}
+
+div.contain .pro-info .list-wrap .insurance-product ul.insurance-ul li div.text p.done i.check-agree .agree:checked + label::before {
+    background: #ff6700;
+    display: block;
+    content: "\2714";
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+
+div.contain .pro-info .list-wrap .insurance-product ul.insurance-ul li div.text p.done a {
+    color: #ff6700;
+}
+
+div.contain .pro-info .list-wrap .insurance-product ul.insurance-ul li div.text p.done a span {
+    color: #2c2c2c;
+    margin-left: 5px;
+}
+
+div.contain .pro-info .list-wrap .insurance-product ul.insurance-ul li .check-price {
+    position: absolute;
+    right: 20px;
+    bottom: 28px;
+    color: #757575;
+}
+
+/*已选购商品服务*/
+div.contain .pro-info .pro-list {
+    width: 546px;
+    height: auto;
+    background: #f9f9fa;
+    position: absolute;
+    top: 1266px;
+    right: 0;
+    padding: 30px 30px;
+}
+
+div.contain .pro-info .pro-list ul.pro-list-ul {
+
+}
+
+div.contain .pro-info .pro-list ul.pro-list-ul li {
+    list-style: none;
+    line-height: 30px;
+    color: #616161;
+}
+
+div.contain .pro-info .pro-list ul.pro-list-ul li span.money {
+    float: right;
+    color: #616161;
+}
+
+div.contain .pro-info .pro-list ul.pro-list-ul li.totalPrice {
+    color: #ff6700;
+    font-size: 24px;
+    padding-top: 20px;
+}
+
+div.contain .pro-info .insertCart {
+    width: 606px;
+    height: 56px;
+    position: absolute;
+    top: 1500px;
+    right: 0;
+}
+
+div.contain .pro-info .insertCart .cart:hover {
+    background: #f25807;
+}
+
+div.contain .pro-info .insertCart .cart {
+    width: 300px;
+    height: 54px;
+    float: left;
+    background: #ff6700;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+div.contain .pro-info .insertCart .cart a {
+    /*background: #ff6700;*/
+    border-color: #ff6700;
+    color: #fff;
+    width: 298px;
+    height: 52px;
+    line-height: 52px;
+    font-size: 16px;
+    margin-left: 110px;
+}
+
+div.contain .pro-info .insertCart .favor {
+    width: 62px;
+    height: 20px;
+    background: #b0b0b0;
+    float: left;
+    margin-left: 15px;
+    padding: 17px 40px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+div.contain .pro-info .insertCart .favor:hover {
+    background: #757575;
+}
+
+div.contain .pro-info .insertCart .favor a.favor-a span {
+    color: #fff;
+    font-size: 16px;
+}
+
+div.contain .pro-info .insertCart .favor a.favor-a {
+    display: inline-block;
+    width: 45px;
+    /*background: #00bbf0;*/
+    position: relative;
+    padding: 0 0 0 25px;
+}
+
+div.contain .pro-info .insertCart .favor a.favor-a .icon-favor {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+div.contain .pro-info .insertCart .favor a.favor-a .icon-favor img {
+    position: absolute;
+}
+
+div.contain .pro-info .insertCart .favor a.favor-a .icon-favor img:nth-child(2) {
+    display: none;
+}
+
+div.contain .pro-info .insertCart .favor:hover a.favor-a .icon-favor img:nth-child(2) {
+    display: block;
+}
+
+div.contain .pro-info .insertCart .favor:hover a.favor-a .icon-favor img:nth-child(1) {
+    display: none;
+}

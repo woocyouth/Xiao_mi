@@ -1,0 +1,49 @@
+<html>
+<head>
+    <script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+<!--    <script type="text/javascript">-->
+<!--        $(document).ready(function(){-->
+<!--            $("button").click(function(){-->
+<!--                $("p:first").addClass("intro");-->
+<!--            });-->
+<!--            $(".b2").click(function(){-->
+<!--                $("p:first").removeClass("intro");-->
+<!--            });-->
+<!--        });-->
+<!--    </script>-->
+    <style type="text/css">
+        .intro
+        {
+            font-size:120%;
+            color:red;
+        }
+    </style>
+</head>
+
+<body>
+<!--<h1>This is a heading</h1>-->
+<!--<p>This is a paragraph.</p>-->
+<!--<p>This is another paragraph.</p>-->
+<!--<button>向第一个 p 元素添加一个类</button>-->
+<!--<button class="b2">remove 第一个 p 元素添加的类</button>-->
+<img id="img" src="../image/tyyj_banner.webp" />
+<script type="text/javascript">
+    window.onload = function() {
+        // 图片地址数组
+        var image_urls = ["../image/wxian_banner.webp", "../image/bwb_banner.webp", "../image/slide_banner.webp", "../image/tyyj_banner.webp"];
+        // 初始化数组键值 (0 = 第一个图7a686964616fe58685e5aeb931333332616431片)
+        var idx = 0;
+
+        // 点击 id 为 img 的图片
+        document.getElementById("img").onclick = function() {
+            // idx + 1，如果为最后一张，还原回第一张
+            idx = idx === image_urls.length - 1 ? 0 : idx + 1;
+            // 设置 src
+            this.src = image_urls[idx];
+            // 测试
+            alert(this.src);
+        };
+    };
+</script>
+</body>
+</html>

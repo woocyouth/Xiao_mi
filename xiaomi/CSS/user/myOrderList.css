@@ -1,0 +1,356 @@
+*{
+    margin:0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,li{
+    list-style: none;
+}
+.contain{
+    width: 910px;
+    height: 893px;
+    /*background: #8f877e;*/
+    margin: 0 auto;
+    position: relative;
+}
+.contain .title{
+    width: 910px;
+    height: 125px;
+    margin: 0 auto;
+    background: #ffffff;
+    /*border-bottom: 1px solid #e0e0e0;*/
+}
+.contain .title .head{
+    width: 100%;
+    height: 68px;
+    float: left;
+    margin-bottom: 10px;
+}
+.contain .title .head .tit{
+    margin: 0;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 68px;
+    color: #757575;
+}
+.contain .title .head .tit-more{
+    margin-left: 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #757575;
+}
+.contain .buy-goods .num{
+    width: 250px;
+    height: 27px;
+    float: left;
+}
+.contain .buy-goods .num .order-num{
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+}
+.contain .buy-goods .contact{
+    width: 130px;
+    height: 130px;
+    float: right;
+    /* background: yellowgreen; */
+    position: absolute;
+    margin-top: 165px;
+    margin-left: 760px;
+}
+.contain .buy-goods .contact .contact-service{
+    display: inline-block;
+    background: #fff;
+    padding: 0;
+    border: 1px solid #b0b0b0;
+    text-align: center;
+    color: #757575;
+    cursor: pointer;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+    width: 118px;
+    height: 28px;
+    font-size: 12px;
+    line-height: 28px;
+    margin: 8px 5px 0;
+}
+.contain .buy-goods .contact .contact-service:hover{
+    color: #fff;
+    background-color: #757575;
+    border-color: #757575;
+}
+.contain .buy-goods .contact .order-service{
+    display: inline-block;
+    background: #fff;
+    padding: 0;
+    border: 1px solid #b0b0b0;
+    text-align: center;
+    color: #757575;
+    cursor: pointer;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+    width: 118px;
+    height: 28px;
+    font-size: 12px;
+    line-height: 28px;
+    margin: 8px 5px 0;
+}
+.contain .buy-goods .contact .order-service:hover{
+    color: #fff;
+    background-color: #757575;
+    border-color: #757575;
+}
+.contain .buy-goods .contact .back-service{
+    display: inline-block;
+    background: #fff;
+    padding: 0;
+    border: 1px solid #b0b0b0;
+    text-align: center;
+    color: #757575;
+    cursor: pointer;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+    width: 118px;
+    height: 28px;
+    font-size: 12px;
+    line-height: 28px;
+    margin: 8px 5px 0;
+    float: right;
+}
+.contain .buy-goods .contact .back-service:hover{
+    color: #fff;
+    background-color: #757575;
+    border-color: #757575;
+}
+.contain .buy-goods{
+    width: 910px;
+    height: 430px;
+    padding: 10px;
+    margin: 0 auto 10px;
+    /* background: #39731b; */
+    border: 1px solid #e0e0e0;
+    overflow-y: auto;
+    position: relative;
+}
+.contain .buy-goods .buy-goods-list{
+    float: left;
+}
+.contain .buy-goods .buy-goods-list .g-img{
+    float: left;
+    width: 100px;
+    height: 80px;
+    margin-right: 10px;
+}
+.contain .buy-goods .buy-goods-list .g-name{
+    width: 290px;
+    height: 90px;
+    float: left;
+    margin-left: 10px;
+    line-height: 80px;
+}
+.contain .buy-goods .buy-goods-list .g-price{
+    width: 327px;
+    height: 90px;
+    float: left;
+    margin-left: 10px;
+    line-height: 80px;
+}
+.contain .order-details{
+    float: left;
+    width: 100%;
+    height: auto;
+    color: #757575;
+    font-weight: 100;
+    line-height: 25px;
+    padding: 20px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+.contain .order-details h2.u-details-head{
+    margin: 0 0 15px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+}
+.contain .order-details .u-name{
+    font-weight: 100;
+    font-size: 15px;
+}
+.contain .order-details .or-time{
+     font-weight: 100;
+     font-size: 15px;
+    margin-right: 5px;
+ }
+.contain .order-details .u-phone{
+    font-weight: 100;
+    font-size: 15px;
+    margin-left: 5px;
+}
+.contain .order-details .u-address{
+    font-weight: 100;
+    font-size: 15px;
+    margin-left: 5px;
+}
+.contain .count-price{
+    width: auto;
+    height: auto;
+    color: #757575;
+    line-height: 45px;
+    font-size: 14px;
+    text-align: right;
+    float: right;
+}
+.contain .count-price .s-price{
+    color: #ff6700;
+}
+.contain .count-price .post-price{
+    color: #ff6700;
+}
+.contain .count-price .final-money{
+    color: #000;
+    font-size: 24px;
+    font-weight: 400;
+}
+ /*搜索框*/
+.contain div.search {
+    width: 210px;
+    height: 10px;
+    border: 1px solid #e0e0e0;
+    float: right;
+    padding: 15px;
+    /* background: #ff6700; */
+    margin-top: 20px;
+    position: absolute;
+    top: 35px;
+    right: 0;
+    transition: all 0.3s;
+}
+
+.contain div.search:hover {
+    border: 1px solid #b0b0b0;
+}
+
+.contain div.search input {
+    background: none;
+    outline: none;
+    border: none;
+
+}
+
+.contain div.search input.text {
+    font-size: 13px;
+    padding: 0 0 10px 10px;
+    width: 223px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.contain div.search div.img {
+    transition: color 0.3s;
+}
+
+.contain div.search div.img input.btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45px;
+    height: 40px;
+    transition: all 0.3s;
+    border-left: 1px solid #e0e0e0;
+}
+
+.contain div.search:hover div.img input.btn {
+    cursor: pointer;
+}
+
+.contain div.search div.img:hover input.btn {
+    border-left: none;
+    background: #757575;
+}
+
+.contain div.search:hover div.img input.btn {
+    border-left: 1px solid #b0b0b0;
+}
+
+.contain div.search div.img:hover img.img2 input.btn {
+    background: #ff6700;
+}
+
+.contain div.search div.img img {
+    position: absolute;
+    top: 9px;
+    right: 8px;
+    z-index: 11;
+    cursor: pointer;
+}
+
+.contain div.search div.img img.img2 {
+    display: none;
+}
+
+.contain div.search div.img:hover img.img2 {
+    display: block;
+}
+
+/*分页*/
+.contain .page {
+    width: 100%;
+    height: 60px;
+    margin: 0 auto;
+    float: left;
+}
+
+.contain .page .list {
+    padding-top: 15px;
+    margin: 0 auto;
+    width: 100%;
+    height: 45px;
+    /*background: #55a532;*/
+    text-align: center;
+}
+
+.contain .page .list span.page-list {
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    width: 48px;
+    height: 24px;
+    padding: 3px 0;
+    margin: 0 7px;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 24px;
+    color: #b0b0b0;
+    transition: all 0.3s;
+}
+
+.contain .page .list span.page-list:hover {
+    background-color: #b0b0b0;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contain .page .list a.page-list:hover {
+    background-color: #757575;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contain .page .list a.page-list {
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    width: 48px;
+    height: 24px;
+    padding: 3px 0;
+    margin: 0 7px;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 24px;
+    color: #b0b0b0;
+    transition: all 0.3s;
+}

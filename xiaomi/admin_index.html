@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>admin</title>
+    <link type="text/css" rel="stylesheet" href="CSS/admin/admin_index.css">
+</head>
+<body>
+<!--顶部用户登录栏-->
+     <header>
+         <div class="logo" onclick="sideList_show()">
+             <img src="image/milogo.png" width="49" height="49" style="float: left;">
+         </div>
+         <div class="admin_login">
+             <a href="#">管理员&nbsp;&nbsp;admin</a>
+             <a href="#">退出</a>
+         </div>
+     </header>
+<!--内容管理-->
+     <article>
+<!--         侧边功能栏-->
+         <div class="side" id="side">
+             <div class="side-manage">
+                 <a href="manage_user.html" target="Frame">用户管理</a>
+             </div>
+         </div>
+<!--         嵌套网页-->
+         <div class="contain">
+             <iframe name="Frame" src="manage_user.html"></iframe>
+         </div>
+     </article>
+<script>
+    function sideList_show() {
+        var side = document.getElementById("side");
+        // console.log(side.style.width = "230px");
+        if (side.style.display === "block"){
+            side.style.width = "0";
+            side.style.display = "none";
+        }else{
+           side.style.width = "230px";
+            side.style.display = "block";
+        }
+    }
+</script>
+</body>
+</html>

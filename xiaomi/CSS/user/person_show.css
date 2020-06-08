@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div.person_show{
+    width: 882px;
+    height: 605px;
+    background: #ffffff;
+    margin: 0 auto;
+}
+div.person_show div.up{
+    width: 882px;
+    height: 224px;
+    border-bottom: 1px solid #e0e0e0;
+}
+div.person_show div.up div.camera{
+    width: 482px;
+    height: 200px;
+    float: left;
+    /*background: #e9d3ff;*/
+}
+div.person_show div.up div.camera img{
+    border-radius: 50%;
+    float: left;
+    margin: 20px 0;
+    border: 3px solid #e6e6e6;
+    padding: 5px;
+}
+div.person_show div.up div.camera div.details{
+    width: 300px;
+    height: 200px;
+    float: right;
+    margin-top: 25px;
+}
+div.person_show div.up div.camera div.details h2{
+    margin: 20px 0;
+    font-size: 24px;
+    font-weight: 400;
+    color: #616161;
+}
+div.person_show div.up div.camera div.details p{
+    margin: 20px 0 10px;
+    color: #b0b0b0;
+}
+div.person_show div.up div.camera div.details a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #ff6700;
+}
+
+/*身份信息*/
+div.person_show div.up div.per_info{
+    width: 400px;
+    height: 200px;
+    /*background: #55a532;*/
+    float: right;
+}
+div.person_show div.up div.per_info ul.per_info-ul{
+    margin-top: 45px;
+}
+div.person_show div.up div.per_info ul.per_info-ul li{
+    list-style: none;
+    text-align: center;
+    color: #757575;
+    font-size: 16px;
+    line-height: 30px;
+}
+div.person_show div.up div.per_info ul.per_info-ul li span.grade{
+    color: #ff6700;
+}
+
+/*down*/
+div.person_show div.down{
+    width: 882px;
+    height: 380px;
+    /*background: #55a532;*/
+}
+div.person_show div.down div.down-details{
+    width: 388px;
+    height: 100px;
+    margin: 50px 20px;
+    float: left;
+}
+div.person_show div.down div.down-details img{
+    float: left;
+}
+div.person_show div.down div.down-details div.wait{
+    width: 276px;
+    height: 100px;
+    float: right;
+    padding-top: 30px;
+}
+div.person_show div.down div.down-details div.wait h2{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+div.person_show div.down div.down-details div.wait h2 span{
+    color: #ff6700;
+}
+div.person_show div.down div.down-details div.wait a{
+    text-decoration: none;
+    color: #757575;;
+}

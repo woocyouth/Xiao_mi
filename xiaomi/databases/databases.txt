@@ -1,0 +1,88 @@
+--database xmshop
+drop database if exists xmshop;
+create database xmshop character set utf8 collate utf8_general_ci;
+
+--table admin/user
+
+drop table if exists admin;
+create table admin(
+id int(50) auto_increment key,
+username varchar(50) unique,
+password varchar(50) not null,
+email varchar(50) not null); 
+
+drop table if exists user;
+create table user(
+id int(50) auto_increment key,
+username varchar(50) unique,
+password varchar(50) not null,
+email varchar(50) not null,
+sex varchar(50) ,
+headpic varchar(300) );
+
+--table products
+drop table if exists products;
+create table products(
+   p_id int(50) auto_increment key,
+   p_name varchar(200) not null,
+   p_price varchar(200) not null,
+   p_img varchar(200) not null
+);
+
+--phone
+insert into products(p_name,p_price,p_img) values
+('小米10','4999','./image/xm10_change_1.jpg'),
+('小米10Pro','4999','/image/xm10Pro_change_4.jpg'),
+('小米10 青春版 5G','2099','/image/xm10_qc.jpg'),
+('小米10青春版 6GB+64GB 白桃乌龙','2099','/image/xm10_qc_2.jpg');
+
+--tv
+insert into products(p_name,p_price,p_img) values
+('小米电视4A 60英寸 黑色','2199','/image/dianshi_4a.jpg'),
+('小米电视4S 75英寸 银灰色','5999','/image/dianshi_4s.jpg'),
+('小米电视4A 43英寸青春版 黑色','1399','/image/dianshi_4a_43.jpg'),
+('Redmi 智能电视 MAX 98\"','19999','/image/redmi_max.jpg'),
+('小米壁画电视 75英寸','9999','/image/dianshi_bigua.jpg');
+
+--table shoppingCart
+drop table if exists shoppingCart;
+create table shoppingCart(
+u_id int(30) not null,
+s_id int(30) auto_increment key,
+s_name varchar(100) not null,
+s_version varchar(200) not null,
+s_price int(20) not null,
+s_count int(50) not null,
+s_add int(50) not null,
+s_service varchar(50),
+s_service_spent int(50),
+s_img varchar(150) not null
+);
+
+--table address
+drop table if exists address;
+create table address(
+u_id int(50),
+u_add_id int(50) auto_increment key,
+u_addressee varchar(40),
+u_add_phone varchar(50),
+u_province varchar(50),
+u_add_details varchar(50)
+);
+
+--table orderList
+drop table if exists orderList ;
+create table orderList(
+u_id int(50),
+or_id int(50) auto_increment key,
+u_addressee varchar(40),
+s_name varchar(300),
+s_img varchar(300),
+s_add varchar(300),
+s_single_price varchar(300),
+u_add_phone varchar(300),
+s_service varchar(300),
+count_money varchar(30),
+u_add_details varchar(300),
+pay_date timestamp NOT NULL default CURRENT_TIMESTAMP on update current_timestamp
+);

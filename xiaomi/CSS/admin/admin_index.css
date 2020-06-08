@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*顶部用户登录栏*/
+header {
+    width: 100%;
+    height: 49px;
+    background: #ffffff;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, .18);
+}
+
+header div.logo {
+    cursor: pointer;
+}
+
+header div.admin_login {
+    float: left;
+    width: auto;
+    height: 49px;
+    background: #ffffff;
+    text-align: center;
+    margin-left: 30px;
+}
+
+header div.admin_login a {
+    text-decoration: none;
+    color: #757575;
+    font-size: 16px;
+    line-height: 50px;
+}
+
+header div.admin_login a:nth-child(2) {
+    margin-left: 20px;
+}
+
+header div.admin_login a:hover {
+    color: #ff6700;
+}
+
+article {
+    width: 100%;
+    height: 930px;
+    position: relative;
+    margin-top: 10px;
+    /*background: #55a532;*/
+}
+
+/*侧边功能栏*/
+article div.side {
+    width: 230px;
+    height: 100%;
+    /*background: #757575;*/
+    float: left;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, .18);
+    transition: all 0.3s;
+}
+
+article div.side div.side-manage {
+    width: 230px;
+    height: 50px;
+    background: #ffffff;
+    margin-top: 5px;
+    text-align: center;
+    transition: all 0.3s;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+article div.side div.side-manage:nth-child(1) {
+    margin-top: 0;
+}
+
+article div.side div.side-manage a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #757575;
+    line-height: 50px;
+}
+
+article div.side div.side-manage:hover {
+    box-shadow: 0 3px 4px rgba(0, 0, 0, .18);
+}
+
+/*内嵌网页*/
+article div.contain {
+    width: calc(80% + 80px);
+    height: 100%;
+    /* background: #cededf; */
+    position: absolute;
+    left: 300px;
+}
+
+article div.contain iframe {
+    width: 100%;
+    height: 100%;
+    /*background: #0077aa;*/
+    border: none;
+}

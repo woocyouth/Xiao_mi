@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link type="text/css" rel="stylesheet" href="css/person_up.css">
+</head>
+<body>
+<div class="wrap">
+    <div class="header-pic">
+        <div class="h-pic">
+            <img src="../../../camera/wooc.jpg" width="74" height="74">
+        </div>
+        <a href="#" id="up_hPic">修改头像</a>
+    </div>
+<!--    用户信息显示-->
+    <div class="main-contain">
+        <div class="main-title">
+            <h3>基本资料</h3>
+            <div class="set">
+                <img src="../../../icon_image/pencil.png" width="14" height="14">
+                <a href="#" id="open">编辑</a>
+            </div>
+        </div>
+        <div class="u-info">
+            <span class="u-txt">昵称： </span>
+            <span class="u-value">woocyouth</span>
+        </div>
+        <div class="u-info">
+            <span class="u-txt">性别： </span>
+            <span class="u-value">男</span>
+        </div>
+        <!--    用户高级设置-->
+        <div class="main-title">
+            <h3>高级设置</h3>
+            <div class="set">
+                <a href="#" id="pwd-update">管理</a>
+            </div>
+        </div>
+        <div class="u-info">
+            <span class="u-txt">密码： </span>
+            <span class="u-value">zaqxsw</span>
+        </div>
+    </div>
+</div>
+
+<!--上传头像-->
+<dialog id="h-dialog">
+    <div class="box">
+        <div class="title">
+            <h4>编辑基础资料</h4>
+            <span class="close" id="h-close">X</span>
+        </div>
+
+        <div class="contain">
+            <div class="n-value">
+                <span class="img-txt">请上传图片：</span>
+            </div>
+            <div class="img-inp">
+                <input type="file" class="file" name="myFile"><br>
+                上传头像
+            </div>
+            <div class="btns">
+                <div class="sub">
+                    <input type="submit" value="上传图片" class="submit">
+                </div>
+                <div class="cancel">
+                    <span id="h-cancel">取消</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</dialog>
+<!--更新用户名，性别-->
+<dialog id="dialog">
+    <div class="box">
+        <div class="title">
+            <h4>编辑基础资料</h4>
+            <span class="close" id="close">X</span>
+        </div>
+
+        <div class="contain">
+            <div class="n-value">
+                <span class="txt">昵称：</span>
+                <div class="inp">
+                    <input type="text" value="woocyouth" class="text">
+                </div>
+
+            </div>
+
+<!--            <div class="s-value">-->
+<!--                <span class="txt"></span>-->
+<!--                <-->
+<!--            </div>-->
+
+            <div class="btns">
+                <div class="sub">
+                    <input type="submit" value="保存" class="submit">
+                </div>
+                <div class="cancel">
+                    <span id="cancel">取消</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</dialog>
+<!--修改用户密码-->
+<dialog id="pwd-dialog">
+    <div class="box">
+        <div class="title">
+            <h4>编辑基础资料</h4>
+            <span class="close" id="pwd-close">X</span>
+        </div>
+
+        <div class="contain">
+            <div class="n-value">
+                <span class="txt">密码：</span>
+                <div class="inp">
+                    <input type="text" value="zaqxsw" class="text" name="password">
+                </div>
+
+            </div>
+            <div class="btns">
+                <div class="sub">
+                    <input type="submit" value="修改" class="submit">
+                </div>
+                <div class="cancel">
+                    <span id="pwd-cancel">取消</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</dialog>
+<script>
+    var btn = document.getElementById('open');
+    var h_a = document.getElementById('up_hPic');
+    var pwd_up = document.getElementById('pwd-update');
+    var close = document.getElementById('close');
+    var h_close = document.getElementById('h-close');
+    var pwd_close = document.getElementById('pwd-close');
+    var cancel = document.getElementById('cancel');
+    var h_cancel = document.getElementById('h-cancel');
+    var pwd_cancel = document.getElementById('pwd-cancel');
+    var dia = document.getElementById('dialog');
+    var h_dia = document.getElementById('h-dialog');
+    var pwd_dia = document.getElementById('pwd-dialog');
+
+    btn.addEventListener('click',function () {
+        dia.style.display = 'block';
+    });
+
+    close.addEventListener('click',function () {
+        dia.style.display = 'none';
+    });
+
+    cancel.addEventListener('click',function () {
+        dia.style.display = 'none';
+    });
+
+    h_a.addEventListener('click',function () {
+        h_dia.style.display = 'block';
+    });
+
+    h_close.addEventListener('click',function () {
+        h_dia.style.display = 'none';
+    });
+
+    h_cancel.addEventListener('click',function () {
+        h_dia.style.display = 'none';
+    });
+
+    pwd_up.addEventListener('click',function () {
+        pwd_dia.style.display = 'block';
+    });
+
+    pwd_close.addEventListener('click',function () {
+        pwd_dia.style.display = 'none';
+    });
+
+    pwd_cancel.addEventListener('click',function () {
+        pwd_dia.style.display = 'none';
+    });
+</script>
+</body>
+</html>

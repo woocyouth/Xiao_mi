@@ -1,0 +1,42 @@
+@charset "gb2312";
+ 
+.h_tonglan {width:958px;background:#FFFFFF;padding:14px 10px;margin:0 auto;}
+.h_tonglan dl {width:938px;height:32px;_height:32px;background:url(/image/huixian2.gif) repeat-x top;margin-left:10px;margin-right:10px;}
+.h_tonglan dl dd {float:left;width:196px;height:32px;_height:32px;background:url(/image/lvx2.gif) repeat-x top;}
+.h_tonglan dl dt {float:right;width:700px;text-align:right;line-height:25px;min-height:25px;color:#6A6A6A;}
+.h_tonglan ul {overflow:hidden;}
+.h190px {overflow:hidden;margin-left:10px;margin-right:10px;padding-bottom:3px;padding-top:14px;}
+.h190px img {width:938px;border:0px;}
+
+.h218px {width:938px;height:200px;_height:200px;padding-top:14px;margin:0 auto;}
+.h218px th {padding-top:67px;}
+.h218px td {overflow:hidden;}
+#scrollbox ul {overflow:hidden;}
+#scrollbox ul LI {FLOAT:left;width:150px;_width:150px;height:200px;_height:200px;vertical-align:top;font-size:12px;line-height:18px;min-height:18px;text-align:center;padding:0px;overflow:hidden;}
+#scrollbox ul LI img{ width:130px;height:160px;border:0px;}
+.pointer {CURSOR: pointer}
+
+ * {padding:0px;margin:0px;}
+html {overflow-y:scroll;}
+body {margin:0;padding:0px;font-size:12px;background:url(/image/t_ds.gif) repeat-x top;background-color:#F2F2F2;color:#252525;}
+div,dl,dt,dd,ul,ol,li,pre,form,fieldset,input,textarea,blockquote,p{padding:0; margin:0;}
+table,td,tr,th{font-size:12px;}
+li{list-style-type:none;}
+ol,ul {list-style:none;}
+address,cite,code,em,th,i {font-weight:normal;font-style:normal;}
+.fB{font-weight:bold;}
+.fred {color:#ff0000;}
+.f12px{font-size:12px;}
+.f14px{font-size:14px;}
+.f14pxbai{font-size:14px;color:#ffffff; font-weight:bold;}
+.f16px{font-size:16px;}
+.f18px{font-size:18px;}
+.f22px{font-size:22px;color:#FFFFFF;}
+.center {margin:0px auto;}
+.left{float:left;}
+.right{float:right;}
+.rejm {width:60px;height:20px;border:#7E9DB9 1px solid;line-height:20px;}
+/* link css */
+a {color:#252525;text-decoration:none;}
+a:hover {color:#058F04;text-decoration:none;}
+a:active {color:#058F04;text-decoration:none;}

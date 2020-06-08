@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 99px;
+    /*background: #b9ff69;*/
+}
+
+header div.top {
+    width: 1130px;
+    height: 99px;
+    background: #ffffff;
+    margin: 0 auto;
+}
+
+/*小米logo*/
+header div.top div.logo {
+    margin: 25px 0 0 0;
+    width: 201px;
+    height: 55px;
+    float: left;
+}
+
+/*登录*/
+article {
+    background-image: url("../../image/login_bg.png");
+    background-repeat: no-repeat;
+    background-position: right -30px;
+    width: 100%;
+    height: 590px;
+}
+
+article div.login {
+    width: 1130px;
+    height: 590px;
+    margin: 0 auto;
+
+}
+
+article div.login div.login_lo {
+    width: 412px;
+    height: 558px;
+    float: right;
+    margin: 32px 0 0 0;
+    background: #ffffff;
+}
+
+article div.login div.login_lo div.login_inp {
+    width: 350px;
+    height: 222px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+article div.login div.login_lo div.login-number {
+    width: 350px;
+    height: 54px;
+    margin: 0 auto;
+    /*border: #ff6700 1px solid;*/
+}
+
+article div.login div.login_lo div.login-number div.login-number-container {
+    margin: 34px 0 0 32px;
+}
+
+article div.login div.login_lo div.login-number a.a1 {
+    font-size: 24px;
+    color: #ff6700;
+    text-decoration: none;
+}
+
+article div.login div.login_lo div.login-number a.a2 {
+    font-size: 24px;
+    color: #000;
+    text-decoration: none;
+}
+
+article div.login div.login_lo div.login-number span.line {
+    width: 1px;
+    height: 24px;
+    margin: 0 42px 0 42px;
+    border: 1px solid #e0e0e0;
+}
+
+/*输入框*/
+article div.login div.login_lo div.login_inp input {
+    padding: 18px 14px 18px 14px;
+    font-size: 14px;
+    margin-top: 16px;
+    width: 322px;
+    height: 14px;
+    outline: none;
+    border: #e0e0e0 1px solid;
+    color: #a2a2a2;
+    background: none;
+
+}
+
+article div.login div.login_lo div.login_inp input.submit {
+    margin-top: 25px;
+    border: #ff6700;
+    background: #ff6700;
+    color: #ffffff;
+    width: 352px;
+    height: 50px;
+    cursor: pointer;
+}
+
+article div.login div.login_lo div.login_inp div.tap {
+    width: 350px;
+    height: 20px;
+    /*border: #ff6700 1px solid;*/
+    padding: 5px 0 0 0;
+    line-height: 14px;
+}
+
+article div.login div.login_lo div.login_inp div.tap a.phone {
+    text-decoration: none;
+    font-size: 12px;
+    color: #ff6700;
+    float: left;
+}
+
+article div.login div.login_lo div.login_inp div.tap a.register-pwd {
+    text-decoration: none;
+    font-size: 12px;
+    color: #999;
+    float: right;
+}
+
+article div.login div.login_lo div.login_inp div.tap a.register-pwd:hover {
+    color: #ff6700;
+}
+
+article div.login div.login_lo div.login_inp div.tap span {
+    color: #999;
+    float: right;
+    margin-right: 5px;
+}
+
+/*自动登录*/
+article div.login div.login_lo div.login_inp .auth {
+    position: relative;
+    height: 20px;
+}
+
+article div.login div.login_lo div.login_inp .auth input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    -webkit-appearance: none;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 10px;
+    left: 0px;
+}
+article div.login div.login_lo div.login_inp .auth span.autoLogin{
+    float: left;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+article div.login div.login_lo div.login_inp .auth #autoLogin + label {
+    display: block;
+    width: 19px;
+    height: 19px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    background: none;
+    border: 1px solid #a4a4a4;
+}
+
+article div.login div.login_lo div.login_inp .auth #autoLogin:checked + label::before {
+    display: block;
+    content: "\2714";
+    text-align: center;
+    font-size: 14px;
+    width: 20px;
+    height: 20px;
+    background: #ff6700;
+    color: white;
+}
+
+article div.login div.login_lo div.login_inp div.hidden_info{
+    background: antiquewhite;
+    margin-top: 20px;
+    margin-bottom: -15px;
+}
+article div.login div.login_lo div.login_inp div.hidden_info p.warning{
+    color: orangered;
+}
+/*其他登录方式*/
+article div.login div.login_lo div.other {
+    width: 350px;
+    height: 65px;
+    margin: 150px 0 0 32px;
+}
+
+article div.login div.login_lo div.other fieldset.txt {
+    border-top: 1px solid #e0e0e0;
+    padding-top: 10px;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+
+}
+
+article div.login div.login_lo div.other fieldset.txt legend.txt-title {
+    font-size: 14px;
+    color: #b0b0b0;
+    margin: 0 auto;
+    /*text-align: center;*/
+}
+
+/*图标*/
+article div.login div.login_lo div.other div.icon {
+    width: 350px;
+    height: 40px;
+    text-align: center;
+}
+
+article div.login div.login_lo div.other div.icon a {
+    text-decoration: none;
+    margin: 0 16px 0 16px;
+}
+
+/*底部信息*/
+footer {
+    width: 100%;
+    height: auto;
+    padding-top: 104px;
+}
+
+footer div.container {
+    width: 1130px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: #757575;
+}
+
+footer span {
+    color: #757575;
+}
+
+footer div.container div.language {
+    margin-bottom: 20px;
+}
+
+footer div.container div.language a:hover {
+    color: #000000;
+}
