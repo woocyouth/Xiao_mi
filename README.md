@@ -7,4 +7,4 @@
 Ajax还学的比较浅，所以只在提示信息部分用了一点异步刷新<br/>
 前端使用HTML/CSS/Javascript/JQuery，实现静态页面与静态页面部分动画<br/>
 后端使用MySQL/PHP，实现与前端结合显示，修改，查询后台数据<br/><hr/>
-<a href='https://www.bilibili.com/video/BV18z411i7fo' target='blank'>前端演示视频</a>
+<a href='https://www.bilibili.com/video/BV18z411i7fo' target='_blank'>前端演示视频</a>
